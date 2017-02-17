@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_01PRACTICA_SOLO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lo_que_sea_by_bilico" translatesAutoresizingMaskIntoConstraints="NO" id="7OB-JZ-J2z">
+                                <rect key="frame" x="168" y="236" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="LKX-d9-Kbd"/>
+                                    <constraint firstAttribute="height" constant="128" id="UlY-bS-LPp"/>
+                                    <constraint firstAttribute="width" secondItem="7OB-JZ-J2z" secondAttribute="height" multiplier="15:8" id="Wqo-i5-6nU"/>
+                                    <constraint firstAttribute="width" constant="240" id="Wts-6e-Tvy"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="qEc-Nr-cge"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXr-Bt-xAI">
+                                <rect key="frame" x="416" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVd-AL-sqg">
+                                <rect key="frame" x="267" y="389" width="42" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdl-7n-zJq">
+                                <rect key="frame" x="118" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJR-Dl-8xa">
+                                <rect key="frame" x="262" y="202" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kVd-AL-sqg" firstAttribute="top" secondItem="7OB-JZ-J2z" secondAttribute="bottom" constant="57" id="7mB-tH-ue4"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AQW-6z-W8M"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="top" secondItem="KJR-Dl-8xa" secondAttribute="bottom" constant="13" id="HNL-eJ-RYx"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="top" secondItem="Fdl-7n-zJq" secondAttribute="bottom" constant="-74" id="Jag-gW-tOg"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="top" secondItem="fXr-Bt-xAI" secondAttribute="bottom" constant="-74" id="hr6-W7-rOs"/>
+                            <constraint firstItem="fXr-Bt-xAI" firstAttribute="leading" secondItem="7OB-JZ-J2z" secondAttribute="trailing" constant="53" id="ksA-oK-AV2"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="leading" secondItem="KJR-Dl-8xa" secondAttribute="trailing" constant="-136" id="o5z-FB-uGY"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="leading" secondItem="Fdl-7n-zJq" secondAttribute="trailing" constant="58" id="sgD-NK-QMF"/>
+                            <constraint firstItem="kVd-AL-sqg" firstAttribute="leading" secondItem="7OB-JZ-J2z" secondAttribute="trailing" constant="-141" id="uaM-wf-N62"/>
+                            <constraint firstItem="7OB-JZ-J2z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xTq-JV-xnv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1679" y="435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lo_que_sea_by_bilico" width="760" height="570"/>
+    </resources>
+</document>
